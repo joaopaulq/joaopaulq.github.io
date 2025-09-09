@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me</title>
+  <title>About</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
@@ -12,6 +12,54 @@
       padding: 0;
       background: #f9f9f9;
       color: #111;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      color: #d32f2f;
+      margin: 0;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 2rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+      position: relative;
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+      color: #d32f2f;
+    }
+
+    nav ul li a.active::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background: #d32f2f;
+      bottom: -4px;
+      left: 0;
     }
 
     .container {
@@ -56,33 +104,43 @@
   </style>
 </head>
 <body>
+  <!-- Menu de navegação -->
+  <header>
+    <h1>Mavi Oliveira</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Produções</a></li>
+        <li><a href="publications.html">Publicações</a></li>
+        <li><a href="about.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo About -->
   <div class="container">
-    <!-- Texto -->
     <div class="about-text">
-      <h1>I'm Jennie.</h1>
+      <h1>Olá, eu sou Mavi Oliveira.</h1>
       <p>
-        I'm a freelance video journalist and documentary filmmaker living between Los Angeles & NYC.
+        Sou graduanda em Jornalismo na <strong>Universidade Federal da Paraíba (UFPB)</strong> e atualmente atuo como produtora na <strong>TV Cabo Branco</strong>, afiliada da Rede Globo, onde produzo pautas e conteúdos para o telejornalismo local.
       </p>
       <p>
-        For 4+ years, I was a video journalist at NowThis, where I produced, shot, and edited character-driven, highly-sharable short docs. From 2020–2021, I led a coordinated project between the MacArthur Foundation, the Appeal, and NowThis to make a series of short documentaries focused on criminal justice reform.
+        Minha trajetória inclui experiências diversas em comunicação, passando pela <em>Iris Comunicação</em> como assistente de marketing, pela <em>Agência Orquestra</em> como social media e pelo projeto <em>Não Feche a Janela</em> como designer gráfica.
       </p>
       <p>
-        Since going freelance in 2021, I've worked with companies like Radical Media, Topic Studios, Sky Documentaries, Hearst Television and more — tackling stories that are bold, complex, and deeply human.
+        Além da prática profissional, já participei de congressos e imersões em áreas como <em>branding</em>, design e inteligência artificial no marketing, sempre buscando ampliar minha visão sobre comunicação e inovação.
       </p>
       <p>
-        My documentary short <em>Georgie</em>, screened at festivals around the world, including DOC NYC, Aspen Shortsfest, CUFF Docs, and Florida Film Festival.
+        Tenho paixão por contar histórias que informam e aproximam as pessoas, especialmente no campo do jornalismo audiovisual.
       </p>
       <p>
-        I was also an Associate Producer on the feature doc <em>Tell Them You Love Me</em>, which hit #1 when it premiered on NETFLIX in 2024.
+        <strong>Contato:</strong><br>
+        📧 demariav03@gmail.com <br>
+        📱 (87) 99658-1310 <br>
+        🔗 <a href="https://www.linkedin.com/in/mariavitoriaolivera" target="_blank">LinkedIn</a> | 
+        <a href="https://oioioooo.my.canva.site/portf-lio-em-jornalismo" target="_blank">Portfólio</a>
       </p>
-      <p>
-        After work, I absolutely love playing complicated strategy board games, cooking a big pot of heirloom beans, and traveling with my cat, Nebraska, who weirdly enough loves flights and long car rides.
-      </p>
-      <p><strong>Do you want to get in touch???</strong><br>
-        jenniebt1r@gmail.com</p>
     </div>
 
-    <!-- Foto -->
     <div class="about-image">
       <img src="images/profile.jpg" alt="Profile Photo">
     </div>
