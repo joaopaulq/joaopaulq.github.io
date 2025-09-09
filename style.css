@@ -68,7 +68,7 @@ nav ul li a.active::after {
   max-width: 1200px; /* um pouco maior pra dar mais respiro */
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem; /* menor gap pra ficar parecido com o exemplo */
 }
 
