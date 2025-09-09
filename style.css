@@ -68,7 +68,7 @@ nav ul li a.active::after {
   max-width: 1200px; /* um pouco maior pra dar mais respiro */
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem; /* menor gap pra ficar parecido com o exemplo */
 }
 
@@ -170,7 +170,7 @@ nav ul li a.active::after {
 .cv-container h2 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
-  color: #ff3c00;
+  color: #030202;
 }
 
 .cv-item {
