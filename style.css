@@ -131,11 +131,11 @@ nav ul li a.active::after {
   align-items: center;
 }
 
-.about-text h1 {
+.about-text h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  color: #ff3c00;
+  color: #000000;
 }
 
 .about-text p {
