@@ -27,8 +27,9 @@
     }
 
     header h1 {
-      font-size: 1.5rem;
-      color: #d32f2f;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #FF6B00; /* Laranja forte */
       margin: 0;
     }
 
@@ -48,11 +49,12 @@
       color: #111;
       font-weight: 500;
       position: relative;
+      transition: color 0.2s ease-in-out;
     }
 
     nav ul li a.active,
     nav ul li a:hover {
-      color: #d32f2f;
+      color: #FF6B00; /* Laranja forte */
     }
 
     nav ul li a.active::after {
@@ -60,7 +62,7 @@
       position: absolute;
       width: 100%;
       height: 2px;
-      background: #d32f2f;
+      background: #FF6B00; /* Laranja forte */
       bottom: -4px;
       left: 0;
     }
@@ -76,14 +78,16 @@
     }
 
     .about-text h1 {
-      font-size: 1.8rem;
-      font-weight: bold;
+      font-size: 2rem;
+      font-weight: 600;
       margin-bottom: 1.5rem;
+      color: #FF6B00; /* Laranja forte */
     }
 
     .about-text p {
-      line-height: 1.6;
+      line-height: 1.7;
       margin-bottom: 1.2rem;
+      font-weight: 300;
     }
 
     .about-text em {
@@ -112,9 +116,9 @@
     <h1>Mavi Oliveira</h1>
     <nav>
       <ul>
-        <li><a href="index.html" class="active">Produções</a></li>
+        <li><a href="index.html">Produções</a></li>
         <li><a href="publications.html">Publicações</a></li>
-        <li><a href="about.html">Sobre</a></li>
+        <li><a href="about.html"class="active">Sobre</a></li>
       </ul>
     </nav>
   </header>
